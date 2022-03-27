@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    margin: 60px;
+    background: #fffefe;
+    width: 800px;
+    height: 590px;
+    border-radius: 20px;
+}
+
+.content .back{
+  color: #ced2eb;
+  background-color: #0769e9;
+  padding: 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.content .box {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 14px;
+}
+
+.content .price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    color: #fffefe;
+    background-color: #0769e9;
+    border-radius: 5px;
+}
+
+.content .brand {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    color: #0769e9;
+}
+
+.content .description {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.content .rating {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.content .rating h4{
+    font-size: 18px;
+    background-color: #19aace;
+    padding: 22px;
+    border-radius: 20px;
+}
+
+.ranting-ico{
+    color: #d6e419;
+}
+
+.eye{
+    color: #4d5053;
+}
+
+ /* MOBILE */
+ @media (max-width: 768px) {
+    body {
+      padding-top: 70px;
+    }
+  
+    .content { 
+        position: relative;
+        margin: 10px;
+        background: #fffefe;
+        width: 320px;
+        height: 900px;
+        border-radius: 20px;
+    }
+  
+    .content .back{
+        color: #ced2eb;
+        background-color: #0769e9;
+        padding: 10px;
+        border-radius: 50px;
+        margin-right: 10px;
+      }
+      
+      .content .box {
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center; 
+          margin: 20px;
+      }
+
+      .content .box h1{
+        font-size: 25px;
+    }
+
+    .content .box h2{
+        font-size: 20px;
+        margin: 20px;
+    }
+  
+    .content .rating h4{
+        font-size: 16px;
+        background-color: #19aace;
+        padding: 20px;
+        margin: 15px;
+        border-radius: 20px;
+    }
+  
+  }

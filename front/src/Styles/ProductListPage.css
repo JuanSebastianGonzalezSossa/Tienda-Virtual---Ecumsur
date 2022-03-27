@@ -1,0 +1,21 @@
+.btnClearCart {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: none;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.Cartbox{
+    position: absolute;
+    margin-left: 600px;
+}
