@@ -16,14 +16,15 @@
     width: 100%;
     top: 0;
     left: 0;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    z-index: 2;
   }
   
-  .nav {
+  .header .nav {
     display: flex;
     justify-content: space-between;
-  
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 40px;
+    z-index: 2;
   }
   
   .nav-link {
@@ -51,12 +52,20 @@
   
     .header {
       height: 60px;
+      z-index: 1;
     }
   
+    .header .nav {
+      height: 60px;
+      margin: 0 10px;
+      z-index: 1;
+    }
+
     .logo {
       font-size: 25px;
       padding: 0 15px;
       line-height: 60px;
+      z-index: 1;
     }
 
   

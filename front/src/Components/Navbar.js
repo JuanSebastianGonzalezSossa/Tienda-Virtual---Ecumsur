@@ -13,6 +13,7 @@ export const Navbar = () => {
                     <img src="https://www.ecomsur.com/wp-content/uploads/2020/01/ecomsur-logo.png" alt="Logo" />
 
                 </Link>
+                
             </nav>
         </header>
     )
